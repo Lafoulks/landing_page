@@ -102,3 +102,29 @@ blockquote, cite {
     display: flex;
     justify-content: center;
 }
+
+.call-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.action-container {
+    background-color: #3882F6;
+    border-radius: 3px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 40%;
+    padding: 20px;
+    margin: 50px
+}
+
+.button2 {
+    border-color: white;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 10px 0px;
+}
