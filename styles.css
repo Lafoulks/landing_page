@@ -92,3 +92,13 @@ h2 {
 .text {
     max-width: 300px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px 
+}
+
+blockquote, cite {
+    display: flex;
+    justify-content: center;
+}
