@@ -1,3 +1,4 @@
+/*Header Section*/
 .header {
     display: flex;
     background-color: #1F2937;
@@ -66,7 +67,7 @@ button {
     padding: 5px 20px;
     margin: 10px 0px;
 }
-
+/*Body Section*/
 h2 {
     display: flex;
     justify-content: center;
@@ -92,7 +93,7 @@ h2 {
 .text {
     max-width: 300px;
 }
-
+/*Quote Section*/
 .quote {
     background-color: #E5E7EB;
     padding: 80px 
@@ -102,23 +103,21 @@ blockquote, cite {
     display: flex;
     justify-content: center;
 }
-
+/*Call to Action Section*/
 .call-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
 .action-container {
     background-color: #3882F6;
     border-radius: 3px;
-    display: flex;
-    justify-self: center;
-    align-items: center;
     width: 40%;
     padding: 20px;
-    margin: 50px
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .button2 {
@@ -127,4 +126,8 @@ blockquote, cite {
     border-radius: 5px;
     padding: 5px 20px;
     margin: 10px 0px;
+}
+
+.action-text {
+    color: white;
 }
