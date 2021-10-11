@@ -1,3 +1,9 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
 /*Header Section*/
 .header {
     display: flex;
@@ -99,6 +105,12 @@ h2 {
     padding: 80px 
 }
 
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
 blockquote, cite {
     display: flex;
     justify-content: center;
@@ -131,3 +143,11 @@ blockquote, cite {
 .action-text {
     color: white;
 }
+/*Footer Section*/
+.footer {
+    margin-top: auto;
+    background-color: #1F2937;
+    color: white;
+    padding: 38px;
+    text-align: center;
+  }
