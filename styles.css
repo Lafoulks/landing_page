@@ -3,8 +3,6 @@
     background-color: #1F2937;
     color: white;
     flex-direction: column;
-    
-    
 }
 
 .logo {
@@ -69,3 +67,28 @@ button {
     margin: 10px 0px;
 }
 
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.info-container {
+    display: flex;
+    margin: 80px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.text {
+    max-width: 300px;
+}
